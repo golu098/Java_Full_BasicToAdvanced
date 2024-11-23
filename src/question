@@ -1,0 +1,5 @@
+why functional interface allow static,default or private bt in abstract method we are not allowed to do this
+
+
+how to internal working method reference in lambda
+(After this i have to see use cases of method references)
