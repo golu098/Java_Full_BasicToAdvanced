@@ -1,0 +1,32 @@
+
+TreeMap usage when :-
+
+It is crucial to save memory.
+You don't know the number of elements to be stored in memory.
+You want to retrieve elements in natural order.
+You know that objects will be added and removed repeatedly.
+The O(log(n)) is acceptable for you.
+
+The compareTo() method is used to define the natural order of objects
+ The comparison ordering starts with the most significant fields.
+  If the comparison of these fields yields a value other than zero (zero means equality), you simply get the result.
+   If the most significant fields are equal, you compare the subsequent ones.
+    The field comparison is performed until two unequal fields are found or until all fields are equal.
+
+
+    interface implemented in TreeSet<E> will allow for natural element ordering:- java.lang.Comparable
+
+    methods does the Comparable<T> interface define:- compareTo(Ascending order)
+
+
+-----------Questions---------
+
+
+-- why Pq will be printed first then not sorted ?
+-- if 2 key stored same value in hashtable then ?
+--- hashtable code:- random order
+
+
+
+--- ArrayDeque vs Deque
+
